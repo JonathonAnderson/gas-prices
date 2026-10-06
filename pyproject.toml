@@ -1,0 +1,12 @@
+[project]
+name = "gas-prices"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastexcel>=0.21.0",
+    "httpx>=0.28.1",
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "polars>=2.0.0",
+]

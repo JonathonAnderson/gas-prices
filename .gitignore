@@ -1,0 +1,42 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# --- Environments and uv ---------------------------------------------------
+.venv/
+venv/
+.python-version.local
+.env
+.env.*
+!.env.example
+
+# --- Jupyter -----------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+.virtual_documents/
+
+# --- Project data ------------------------------------------------------------
+# Raw EIA / Census downloads are re-fetched by fetch_data.py; the tidy CSVs,
+# manifest.json and the rendered PNGs in output/ are kept under version control.
+data/raw/
+
+# --- Tooling caches -----------------------------------------------------------
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.cache/
+*.log
+
+# --- Editors and OS ------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

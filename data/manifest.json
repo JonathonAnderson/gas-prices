@@ -1,0 +1,61 @@
+{
+  "bls_cpi": {
+    "citation": "https://data.bls.gov/timeseries/CUUR0000SA0",
+    "fetched_at": "2026-10-06T20:52:22+00:00",
+    "latest_period": "2026-08-01",
+    "local": "data/bls_cpi_u_nsa.csv",
+    "name": "BLS CPI-U All Items, U.S. city average, NSA (CUUR0000SA0)",
+    "rows": 440,
+    "series": "CUUR0000SA0",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/"
+  },
+  "census_h06": {
+    "citation": "https://www.census.gov/library/publications/2026/demo/p60-289.html",
+    "fetched_at": "2026-10-06T20:55:42+00:00",
+    "last_modified": "Tue, 15 Sep 2026 14:07:32 GMT",
+    "latest_period": "2025",
+    "local": "data/census_h06_household_income.csv",
+    "name": "Census Table H-6, household income, all races (real and current dollars)",
+    "raw": "data/raw/h06ar.xlsx",
+    "real_dollars_base_year": 2025,
+    "rows": 53,
+    "url": "https://www2.census.gov/programs-surveys/cps/tables/time-series/historical-income-households/h06ar.xlsx"
+  },
+  "eia_gasoline": {
+    "citation": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M",
+    "etag": "\"80e7e0259455dd1:0\"",
+    "fetched_at": "2026-10-06T20:52:21+00:00",
+    "last_modified": "Tue, 06 Oct 2026 13:11:07 GMT",
+    "latest_period": "2026-09-01",
+    "local": "data/eia_gasoline_monthly.csv",
+    "name": "EIA U.S. Regular All Formulations Retail Gasoline Prices (monthly, $/gal)",
+    "raw": "data/raw/EMM_EPMR_PTE_NUS_DPGm.xls",
+    "rows": 431,
+    "series": "EMM_EPMR_PTE_NUS_DPG",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_NUS_DPGm.xls"
+  },
+  "eia_gasoline_weekly": {
+    "citation": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=W",
+    "etag": "\"80e7e0259455dd1:0\"",
+    "fetched_at": "2026-10-06T21:40:11+00:00",
+    "last_modified": "Tue, 06 Oct 2026 13:11:07 GMT",
+    "latest_period": "2026-10-05",
+    "local": "data/eia_gasoline_weekly.csv",
+    "name": "EIA U.S. Regular All Formulations Retail Gasoline Prices (weekly, $/gal)",
+    "raw": "data/raw/EMM_EPMR_PTE_NUS_DPGw.xls",
+    "rows": 1880,
+    "series": "EMM_EPMR_PTE_NUS_DPG",
+    "url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_NUS_DPGw.xls"
+  },
+  "lfpr_25_54": {
+    "citation": "https://fred.stlouisfed.org/series/LNS11300060",
+    "fetched_at": "2026-10-06T20:52:43+00:00",
+    "latest_period": "2026-09-01",
+    "local": "data/lfpr_25_54.csv",
+    "name": "Labor force participation rate, 25-54 years, SA (LNS11300060)",
+    "provider": "BLS API (FRED fallback)",
+    "rows": 561,
+    "series": "LNS11300060",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/"
+  }
+}
